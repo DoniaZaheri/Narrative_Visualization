@@ -1,0 +1,177 @@
+svg {
+    background-color: rgba(250, 249, 249, 0.7);
+    padding: 20px;
+    margin: 10px;
+}
+
+h1 {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 150;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    background-color: rgba(255, 99, 71, 0.7);
+    padding: 20px;
+}
+
+h2 {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 150;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: left;
+    padding: 5px;
+}
+
+h3 {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 250;
+    letter-spacing: 2px;
+    line-height: 2;
+    text-align: left;
+}
+
+li {
+    text-align: left; color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 150;
+    letter-spacing: 1px;
+    line-height: 3;
+}
+
+p {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 150;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+label,
+text, a {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 150;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+circle {
+    stroke: black;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+
+.italic {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+
+hr {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.back {
+    font-family: 'Helvetica Neue', sans-serif;
+    float: right;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.contents {
+    font-size: 20px;
+    margin: 10px;
+    color: purple;
+}
+
+span {
+    background-color: rgb(235, 231, 231);
+}
+
+.datapt {
+    stroke-width: 1px;
+    stroke: black;
+    opacity: .8
+  }
+
+.datapt:hover {
+    stroke: black;
+}
+
+button {
+    display: inline-block;
+    background-color: lightblue;
+    font-size: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+#highway {
+    background-color: rgb(159, 152, 190);
+}
+
+#city {
+    background-color: rgb(130, 196, 175);
+}
+
+img {
+    float: left;
+    padding-right: 20px;
+}
+
+.internalLink {
+    background-color: rgba(255, 99, 71, 0.4);
+    color:black;
+    padding: 15px 25px;
+}
+
+.externalLink {
+    color:black;
+    padding: 0px;
+}
+
+.disabled {
+    color:white;
+    background-color: rgba(255, 99, 71, 0.2);
+    padding: 15px 25px;
+}
+#tooltip {
+    position:absolute;
+    text-align:start;
+    padding: 10px 10px;
+	font-family: 'Helvetica Light', sans-serif;
+    font-weight: lighter;
+    font: 18px sans-serif;
+    background: rgb(174, 181, 190);
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+circle {
+    stroke:black;
+}

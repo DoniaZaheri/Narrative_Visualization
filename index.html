@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<head>
+    <title>2017 Cars Dataset</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+    <script src="functions.js"></script>
+<body onload="load_index();">
+	<a class="disabled">Previous</a>
+	<a class="internalLink" href="./section2.html">Next</a>
+    <h1 id="intro">Fuel Efficiency for Different Vehicle Brands</h1>
+    <div>
+        <h3>
+            Understanding the mileage per galon use for different types of vehicles is an essential factor when deciding on buying a new vehilce or determining fuel regulations for different types of vehicles, especially with the drastic effects of climate change and increasing number of vehicles in the world.
+            There are many factors that can affect the mileage of a vehicle (<a class="externalLink" href="https://www.fueleconomy.gov/feg/factors.shtml#:~:text=Vehicle%20Maintenance,older%20cars%20with%20carbureted%20engines.">Link</a>). This interactive visualization explores 2017 cars highway and city MPGs data, with respect to fuel type and the make of the vehicle.
+        </h3>
+
+
+    </div>
+
+    <p>The plot compares different brands in regards to their average city and highway MPG.</p>
+    <div>
+        <button id="city" onclick="change('AverageCityMPG')">Average City MPG</button>
+		<button id="highway" onclick="change('AverageHighwayMPG')">Average Highway MPG</button>
+    </div>
+    <svg id="scene1" width=1050 height=1100>
+        <text x="900" y="700">Exceptional MPG</text>
+
+        <line x1="0" y1="700" x2="900" y2="700" stroke="blue" stroke-dasharray="4" />
+    </svg>
+
+	<!--a href="#intro" class="back">Back to Top</a-->
+
+</body>
+
+</html>

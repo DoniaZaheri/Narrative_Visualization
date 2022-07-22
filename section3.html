@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<script src='https://d3js.org/d3.v5.min.js'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>MPG For Electric Vehicles</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <script src="./functions.js"></script>
+
+    <body onload="load_electric();">
+		<a class="internalLink" href="./section2.html">Previous</a>
+        <a class="disabled">Next</a>
+        <div id="tooltip" style="opacity:0"></div>
+        <p>
+            <h1 id="intro">MPG For Electric Vehicles</h1>
+            <h3> Electric vehicles do not run on fossil fuel, thus another metric similar to MPG is created to calculate the equivalent of MPG (MPG-E). The MPG-E is calculated by comparing the range an electric vehicle could travel by using an equivalent amount of energy as one gallon of fuel. MPG-E is not the same as the range, nor the energy conversion efficiency.
+            </h3>
+            <h3>Pure electric vehicles do not contain any combustion engines. Therefore, these vehicles tend to be lighter and require less maintenance. In order to propel itself forward, electrical energy is converted to mechanical energy directly.
+			</h3>
+		</p>
+        <p>For more information on each vehicle, hover your cursor on top of any circle.</p>
+        <svg id="scene2" width="100%" height=500></svg>
+        <p>
+            <a class="externalLink" href="https://www.edmunds.com/fuel-economy/decoding-electric-car-mpg.html">Learn more about MPG-E</a> 
+        </p>
+		<!--a href="#intro" class="back">Back to Top</a-->
+    </body>
+</html>
